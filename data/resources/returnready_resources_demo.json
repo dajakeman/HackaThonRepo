@@ -1,0 +1,891 @@
+{
+ "meta": {
+  "title": "ReturnReady Utah — combined workforce re-entry resource directory",
+  "as_of": "2026-11-14",
+  "display_rules": [
+   "Show only records with show_in_demo = true in the live app.",
+   "featured_for_demo = true marks ChatGPT's 19-item demo seed (plus merged duplicates).",
+   "Use status + action_label together. Never label a card 'Open now' unless a teammate confirmed a live opening today.",
+   "url_verified = false means the link or program was not confirmed; hide it or show 'Status unknown'.",
+   "Descriptions are paraphrases, not eligibility decisions or endorsements. Let people browse without saying why they were out of work."
+  ],
+  "statuses": {
+   "ongoing": "Standing service or directory. Local intake, openings, and eligibility can change.",
+   "check_provider": "The provider advertises the program or route. Confirm current intake, dates, geography, and work style.",
+   "cohort_listed": "The provider lists upcoming dates. Confirm that the application route remains open.",
+   "interest_list": "The source offers an interest or talent registration. Check for a separate open requisition.",
+   "no_opening_seen": "The retrieved postings page showed no openings. Recheck the live board before relying on this snapshot.",
+   "local_returnship_unverified": "General employer careers page. A Utah returnship has not been verified.",
+   "historical_only": "Historical reference for maintainers. Exclude from search results for current opportunities."
+  },
+  "note": "Demo subset: featured_for_demo = true. Same schema as returnready_resources.json."
+ },
+ "resources": [
+  {
+   "id": "php-utah",
+   "name": "People Helping People",
+   "organization": "People Helping People",
+   "category": "caregiving",
+   "resource_type": "nonprofit_service",
+   "audiences": [
+    "caregiver",
+    "any"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "Listed in the Utah Women & Leadership Project workforce resource kit; services not yet reviewed.",
+   "next_step": "Use the Become a Client page for intake, workshops, and employment coaching.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.phputah.org/become-a-client",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "verify",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Lead only - verify services and URL before use.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "source_ids": [
+    "php-utah",
+    "lead-people-helping-people"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "tech-moms",
+   "name": "Tech-Moms Core Program",
+   "organization": "Tech-Moms (Utah nonprofit)",
+   "category": "caregiving",
+   "resource_type": "training_program",
+   "audiences": [
+    "caregiver",
+    "women"
+   ],
+   "geography": "Utah, cohort location varies",
+   "location": "Utah",
+   "description": "Review the core pathway, upcoming cohort schedule, tuition or aid, and registration links.",
+   "next_step": "Review the core pathway, upcoming cohort schedule, tuition or aid, and registration links.",
+   "action_label": "Visit resource",
+   "status": "check_provider",
+   "url": "https://www.tech-moms.org/tech-moms",
+   "secondary_url": "https://www.tech-moms.org/",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "Not stated as a single public tuition figure on the homepage; confirm current enrollment cost on the site.",
+   "flexibility": [
+    "part-time course; designed to support career transitions, including for moms"
+   ],
+   "skills": [
+    "coding basics",
+    "web development",
+    "tech careers",
+    "networking"
+   ],
+   "interest_keywords": [
+    "STEM",
+    "communication"
+   ],
+   "notes": "Homepage retrieved 2026-11-14. Site reports (as of a Sept 2026 annual report on the page) 957 alumni and placement/education outcomes. Enrollment dates and current cohort status were not listed on the homepage—confirm before presenting as open. | Active organization; check site for cohort dates and cost.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "tech-moms",
+    "tech-moms",
+    "tech-moms"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "usu-relaunch",
+   "name": "USU Extension Relaunching Your Career",
+   "organization": null,
+   "category": "caregiving",
+   "resource_type": "course",
+   "audiences": [
+    "caregiver"
+   ],
+   "geography": "Utah-based, online",
+   "location": null,
+   "description": "Review this self-paced course on career exploration, résumé writing, interviews, and networking. Check the listed price before enrolling.",
+   "next_step": "Review this self-paced course on career exploration, résumé writing, interviews, and networking. Check the listed price before enrolling.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://extensioncourses.usu.edu/product/relaunching-your-career-bundle/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "usu-relaunch"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-dws-rejoin",
+   "name": "Utah DWS Rejoining the Workforce",
+   "organization": null,
+   "category": "caregiving",
+   "resource_type": "public_service",
+   "audiences": [
+    "caregiver"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "Start with DWS reentry resources and request individual employment guidance.",
+   "next_step": "Start with DWS reentry resources and request individual employment guidance.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://jobs.utah.gov/jobseeker/career/rejoin.html",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "utah-dws-rejoin"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "path-forward",
+   "name": "Path Forward",
+   "organization": "Path Forward",
+   "category": "caregiving",
+   "resource_type": "nonprofit",
+   "audiences": [
+    "caregiver"
+   ],
+   "geography": "national",
+   "location": "United States",
+   "description": "Nonprofit that helps people restart careers after a caregiving break. The site includes return-to-work resources and a returnship matcher for U.S. programs.",
+   "next_step": null,
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://pathforward.org/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [
+    "business"
+   ],
+   "notes": null,
+   "priority": null,
+   "contributed_by": [
+    "GrokBot"
+   ],
+   "source_ids": [
+    "path-forward"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "irelaunch",
+   "name": "iRelaunch",
+   "organization": "iRelaunch",
+   "category": "caregiving",
+   "resource_type": "nonprofit",
+   "audiences": [
+    "caregiver",
+    "older_worker",
+    "career_break",
+    "any"
+   ],
+   "geography": "national",
+   "location": "United States and other markets (program-dependent)",
+   "description": "Organization focused on career reentry after a career break. The site offers return-to-work resources, a job board, and returnship program information.",
+   "next_step": null,
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.irelaunch.com/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "free and paid options",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Active.",
+   "priority": null,
+   "contributed_by": [
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "irelaunch",
+    "irelaunch"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "arup-returnship",
+   "name": "ARUP Laboratories Returnships",
+   "organization": "ARUP Laboratories",
+   "category": "returnships",
+   "resource_type": "returnship",
+   "audiences": [
+    "caregiver",
+    "career_break",
+    "veteran",
+    "any"
+   ],
+   "geography": "Salt Lake City, Utah",
+   "location": "Salt Lake City, UT",
+   "description": "Paid short-term returnship at ARUP in Salt Lake City for skilled people with at least a one-year employment gap, or who have been on active military duty. Tracks include technical (IT and lab work), business, and operations, with mentorship. The careers page invites applicants to browse open returnship jobs or submit a Returnship Interest Form if no current posting fits.",
+   "next_step": "Use ARUP's interest form or its linked returnship board. The employer confirms the program and both routes. Individual job availability was not verified.",
+   "action_label": "Register interest",
+   "status": "interest_list",
+   "url": "https://www.aruplab.com/careers/returnships",
+   "secondary_url": "https://app.smartsheet.com/b/form/4013a230831e478ba0e05ec8cdad27ca",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "paid position",
+   "flexibility": [
+    "paid short-term returnship; tracks in technical, business, and operations"
+   ],
+   "skills": [
+    "laboratory science",
+    "STEM",
+    "healthcare",
+    "IT",
+    "marketing",
+    "human resources",
+    "finance"
+   ],
+   "interest_keywords": [
+    "STEM",
+    "health",
+    "business"
+   ],
+   "notes": "Program page is live as of 2026-11-14 and describes ongoing applications via the job board or interest form. Individual openings can change; confirm a current posting before presenting a role as open. A March 2024 news URL should not be used as the apply link. | Source is a 2024 news post; confirm the program is still open.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "arup-returnship",
+    "arup-returnship",
+    "arup-returnship"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "goldman-sachs-slc",
+   "name": "Goldman Sachs Returnship",
+   "organization": "Goldman Sachs",
+   "category": "returnships",
+   "resource_type": "returnship",
+   "audiences": [
+    "caregiver",
+    "career_break",
+    "any"
+   ],
+   "geography": "Salt Lake City and other listed cities",
+   "location": "Multiple U.S. cities including Salt Lake City, UT; also other global locations",
+   "description": "Paid 12-week returnship for experienced professionals who have been out of full-time work for two or more years and have at least three years of prior work experience. The official page lists Salt Lake City, UT among Americas locations (availability varies by division). The Americas cohort is described as January–March 2027; the page says to register to receive an invitation when applications open.",
+   "next_step": "The Americas cohort is listed for January–March 2027. Salt Lake City is named, subject to division availability. Paid 12-week full-time commitment. Follow the interest link and confirm posting status.",
+   "action_label": "Register interest",
+   "status": "interest_list",
+   "url": "https://www.goldmansachs.com/careers/programs-for-professionals/returnship",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "paid position",
+   "flexibility": [
+    "paid 12-week, full-time program"
+   ],
+   "skills": [
+    "finance",
+    "business",
+    "varies by division"
+   ],
+   "interest_keywords": [
+    "business",
+    "STEM"
+   ],
+   "notes": "As of 2026-11-14, the page does not state that Americas applications are currently open; it asks candidates to register for an invitation. Full-time 12-week commitment. Do not describe it as an open cohort until the application is actually open. | Confirm current cohort.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "goldman-sachs-slc",
+    "goldman-sachs-returnship",
+    "goldman-returnship"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "morgan-stanley-ut",
+   "name": "Morgan Stanley Return to Work",
+   "organization": null,
+   "category": "returnships",
+   "resource_type": "returnship",
+   "audiences": [
+    "caregiver",
+    "career_break"
+   ],
+   "geography": "South Jordan, Utah lead and other U.S. locations",
+   "location": null,
+   "description": "An employer-hosted South Jordan listing surfaced. Current application status could not be confirmed. Check the program page for current roles and locations.",
+   "next_step": "An employer-hosted South Jordan listing surfaced. Current application status could not be confirmed. Check the program page for current roles and locations.",
+   "action_label": "Check employer",
+   "status": "check_provider",
+   "url": "https://www.morganstanley.com/people-opportunities/return-to-work",
+   "secondary_url": "https://ms.wd5.myworkdayjobs.com/External/job/South-Jordan-Utah-United-States-of-America/Return-To-Work---Central-Review-Risk-Officer--Wealth-Management-Client-Segment---South-Jordan--UT_JR043632",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "morgan-stanley-ut"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "path-forward-2",
+   "name": "Path Forward Returnship Finder",
+   "organization": "Path Forward",
+   "category": "returnships",
+   "resource_type": "directory",
+   "audiences": [
+    "caregiver",
+    "career_break"
+   ],
+   "geography": "United States, location varies",
+   "location": "United States (employer programs; some remote)",
+   "description": "Path Forward’s returnship listings and matcher point caregivers and other career returners to employer return-to-work programs in the U.S. Individual employer programs open and close; confirm status on each listing.",
+   "next_step": "Browse employer cohorts and confirm location, schedule, and deadline on the employer site.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://pathforward.org/returnships/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "free",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "This is a directory/matcher, not a single open cohort. Check each employer listing for current applications. | Active; best single source for current returnship openings.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "path-forward",
+    "path-forward-returnships",
+    "path-forward-matcher"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "irelaunch-2",
+   "name": "iRelaunch Return-to-Work Programs",
+   "organization": "iRelaunch",
+   "category": "returnships",
+   "resource_type": "directory",
+   "audiences": [
+    "caregiver",
+    "career_break",
+    "older_worker",
+    "any"
+   ],
+   "geography": "United States and international",
+   "location": "Varies by employer; some remote",
+   "description": "iRelaunch’s return-to-work / returnship program listings for professionals restarting after a career break. Application status is set by each employer.",
+   "next_step": "Browse employer programs and follow the provider's application page.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.irelaunch.com/returnships",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Directory of programs; do not treat the page itself as an open application.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot"
+   ],
+   "source_ids": [
+    "irelaunch",
+    "irelaunch-returnships"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "careeronestop-justice",
+   "name": "CareerOneStop Justice-Impacted Job Search",
+   "organization": null,
+   "category": "justice",
+   "resource_type": "directory",
+   "audiences": [
+    "justice_involved"
+   ],
+   "geography": "United States online",
+   "location": null,
+   "description": "Use reentry job-search guidance and explore local programs by ZIP code.",
+   "next_step": "Use reentry job-search guidance and explore local programs by ZIP code.",
+   "action_label": "Find programs",
+   "status": "ongoing",
+   "url": "https://cloudfront.careeronestop.org/JusticeImpacted/FindAJob/find-a-job.aspx",
+   "secondary_url": "https://cloudfront.careeronestop.org/JusticeImpacted/Toolkit/find-reentry-programs-help.aspx",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "careeronestop-justice"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "honest-jobs",
+   "name": "Honest Jobs",
+   "organization": "Honest Jobs",
+   "category": "justice",
+   "resource_type": "job_board",
+   "audiences": [
+    "justice_involved"
+   ],
+   "geography": "United States, listings vary",
+   "location": "United States (listings vary; some remote)",
+   "description": "Online platform focused on fair-chance employment and reentry support for people with criminal records.",
+   "next_step": "Search by location or work arrangement and check each listing's hiring requirements.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.honestjobs.com/for-job-seekers",
+   "secondary_url": "https://www.honestjobs.com/",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot"
+   ],
+   "source_ids": [
+    "honest-jobs",
+    "honest-jobs"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "slco-jail-reentry",
+   "name": "Salt Lake County Jail Resource and Reentry Program",
+   "organization": "Salt Lake County",
+   "category": "justice",
+   "resource_type": "public_service",
+   "audiences": [
+    "justice_involved"
+   ],
+   "geography": "Salt Lake County",
+   "location": null,
+   "description": "Reentry planning and referrals for treatment, housing, employment support, Medicaid help and transportation after jail release.",
+   "next_step": "Review program intake and ask for community and employment referrals.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.saltlakecounty.gov/criminal-justice-services/pretrial/jrrp---jail-re-entry-resource-program/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "free",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Opened 2022; confirm current services.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "source_ids": [
+    "slco-jail-reentry",
+    "slco-jail-reentry"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "careeronestop-justice-2",
+   "name": "CareerOneStop Justice-Impacted Toolkit and ReEntry Program Finder",
+   "organization": "U.S. Department of Labor",
+   "category": "justice",
+   "resource_type": "reentry",
+   "audiences": [
+    "justice_involved"
+   ],
+   "geography": "National",
+   "location": null,
+   "description": "Tools for people with records: local reentry program finder, state resource finder, training finder, work-ready checklist and a 5-step 'Find a Job After Incarceration' guide. A separate ReEntry site is built for use inside correctional facilities.",
+   "next_step": null,
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://www.careeronestop.org/JusticeImpacted/Toolkit/find-reentry-programs.aspx",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "free",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Active.",
+   "priority": null,
+   "contributed_by": [
+    "Claude"
+   ],
+   "source_ids": [
+    "careeronestop-justice"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-vr",
+   "name": "Utah Vocational Rehabilitation",
+   "organization": "Utah State Office of Rehabilitation",
+   "category": "disability",
+   "resource_type": "public_service",
+   "audiences": [
+    "disability"
+   ],
+   "geography": "Utah",
+   "location": "Utah (statewide; USOR offices)",
+   "description": "Vocational Rehabilitation helps people with physical, intellectual, mental health, and sensory disabilities find competitive employment and address barriers to work. Apply after a short eligibility assessment; toll-free office help is 866-454-8397.",
+   "next_step": "Find an office and ask about assessment, services, job preparation, and intake.",
+   "action_label": "Review application",
+   "status": "ongoing",
+   "url": "https://jobs.utah.gov/usor/vr/index.html",
+   "secondary_url": "https://jobs.utah.gov/usor/vr/apply.html",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "free",
+   "flexibility": [
+    "individualized employment plans"
+   ],
+   "skills": [],
+   "interest_keywords": [
+    "health"
+   ],
+   "notes": "Only offices marked USOR on the DWS office map provide VR services. | Active. | Active; check for any order-of-selection waitlist.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "utah-vr",
+    "usor-vr",
+    "utah-wipa",
+    "utah-vr"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-uwips",
+   "name": "Utah Work Incentive Planning Services",
+   "organization": null,
+   "category": "disability",
+   "resource_type": "benefits_counseling",
+   "audiences": [
+    "disability"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "Ask a benefits counselor how earnings might affect your specific benefits.",
+   "next_step": "Ask a benefits counselor how earnings might affect your specific benefits.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://jobs.utah.gov/usor/vr/services/uwips.html",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "utah-uwips"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-apprentice",
+   "name": "Apprenticeship Utah",
+   "organization": "State of Utah",
+   "category": "training",
+   "resource_type": "apprenticeship_finder",
+   "audiences": [
+    "any"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "State hub for registered apprenticeships and pre-apprenticeships - earn while you learn in trades and other fields.",
+   "next_step": "Browse apprenticeship opportunities and check role requirements.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://apprenticeship.utah.gov/future-apprentices/find-opportunities/index.html",
+   "secondary_url": "https://apprenticeship.utah.gov",
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "paid (earn while you learn)",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Active.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "source_ids": [
+    "utah-apprentice",
+    "apprenticeship-utah"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "care-about-childcare",
+   "name": "Care About Child Care",
+   "organization": null,
+   "category": "supports",
+   "resource_type": "directory",
+   "audiences": [
+    "any"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "Search for providers and confirm schedules, vacancies, cost, and assistance participation directly.",
+   "next_step": "Search for providers and confirm schedules, vacancies, cost, and assistance participation directly.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://jobs.utah.gov/occ/cac.html",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "care-about-childcare"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-211",
+   "name": "Utah 211",
+   "organization": "Utah 211",
+   "category": "supports",
+   "resource_type": "directory",
+   "audiences": [
+    "caregiver",
+    "long_term_unemployed",
+    "disability",
+    "justice_involved",
+    "veteran",
+    "any"
+   ],
+   "geography": "Utah",
+   "location": "Utah (statewide)",
+   "description": "Free, confidential help connecting Utahns to health, social, and government services. Dial 2-1-1 or use the website to find local resources.",
+   "next_step": "Search by location for employment help, child care, transportation, housing, and other supports.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://211utah.org/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": "Dial 2-1-1",
+   "cost": "Free",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "Active.",
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT",
+    "GrokBot",
+    "Claude"
+   ],
+   "source_ids": [
+    "utah-211",
+    "utah-211",
+    "utah-211"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "utah-childcare-help",
+   "name": "Utah DWS Child Care Assistance",
+   "organization": null,
+   "category": "supports",
+   "resource_type": "public_service",
+   "audiences": [
+    "any"
+   ],
+   "geography": "Utah",
+   "location": null,
+   "description": "Read state program information and apply or ask DWS for an eligibility determination.",
+   "next_step": "Read state program information and apply or ask DWS for an eligibility determination.",
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://jobs.utah.gov/customereducation/services/childcare/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": null,
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": null,
+   "priority": 10,
+   "contributed_by": [
+    "ChatGPT"
+   ],
+   "source_ids": [
+    "utah-childcare-help"
+   ],
+   "checked_on": "2026-11-14"
+  },
+  {
+   "id": "care-about-childcare-2",
+   "name": "Care About Childcare (Utah)",
+   "organization": "Utah Department of Workforce Services, Office of Child Care",
+   "category": "supports",
+   "resource_type": "childcare",
+   "audiences": [
+    "caregiver"
+   ],
+   "geography": "Utah-statewide",
+   "location": "Utah (statewide)",
+   "description": "Utah’s official tool for finding child care providers and related information. The DWS child care page points families to Care About Childcare (cac.utah.gov) to search for providers.",
+   "next_step": null,
+   "action_label": "Visit resource",
+   "status": "ongoing",
+   "url": "https://cac.utah.gov/",
+   "secondary_url": null,
+   "url_verified": true,
+   "show_in_demo": true,
+   "featured_for_demo": true,
+   "contact": null,
+   "cost": "Referral service; child care itself is paid separately (and may be subsidized if eligible).",
+   "flexibility": [],
+   "skills": [],
+   "interest_keywords": [],
+   "notes": "careaboutchildcare.utah.gov also resolved to the official OCC Care About Childcare page.",
+   "priority": null,
+   "contributed_by": [
+    "GrokBot"
+   ],
+   "source_ids": [
+    "care-about-childcare"
+   ],
+   "checked_on": "2026-11-14"
+  }
+ ]
+}

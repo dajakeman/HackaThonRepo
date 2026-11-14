@@ -1,0 +1,228 @@
+{
+  "opportunities": [
+    {
+      "id": "tech-moms",
+      "type": "real",
+      "kind": "learning",
+      "title": "Tech-Moms Core Program",
+      "org": "Tech-Moms",
+      "location": "Utah, cohort location varies",
+      "format": [],
+      "flexibility": [],
+      "skills": [
+        "tech careers"
+      ],
+      "description": "Review the core pathway, upcoming cohort schedule, tuition or aid, and registration links.",
+      "url": "https://www.tech-moms.org/tech-moms"
+    },
+    {
+      "id": "usu-relaunch",
+      "type": "real",
+      "kind": "learning",
+      "title": "USU Extension Relaunching Your Career",
+      "org": "Utah State University Extension",
+      "location": "Utah-based, online",
+      "format": [
+        "online",
+        "self-paced"
+      ],
+      "flexibility": [],
+      "skills": [],
+      "description": "Review this self-paced course on career exploration, résumé writing, interviews, and networking. Check the listed price before enrolling.",
+      "url": "https://extensioncourses.usu.edu/product/relaunching-your-career-bundle/"
+    },
+    {
+      "id": "syn-bookkeeper",
+      "type": "synthetic",
+      "kind": "job",
+      "title": "Part-Time Bookkeeper (School Hours)",
+      "org": "Sample Co. - Wasatch Family Dental",
+      "location": "Orem, UT",
+      "pay_monthly_gross": 1900,
+      "hours_per_week": 20,
+      "flexibility": [
+        "part-time",
+        "school-hours"
+      ],
+      "skills": [
+        "budgeting",
+        "QuickBooks",
+        "attention to detail",
+        "Excel"
+      ],
+      "description": "Mon-Fri 9:00-2:00. Accounts payable/receivable and payroll prep."
+    },
+    {
+      "id": "syn-customer-success",
+      "type": "synthetic",
+      "kind": "job",
+      "title": "Remote Customer Success Associate",
+      "org": "Sample Co. - Silicon Slopes SaaS",
+      "location": "Remote (Utah)",
+      "pay_monthly_gross": 3800,
+      "hours_per_week": 40,
+      "flexibility": [
+        "remote",
+        "flexible hours"
+      ],
+      "skills": [
+        "communication",
+        "problem solving",
+        "conflict resolution",
+        "CRM software"
+      ],
+      "description": "Help customers onboard and solve problems by phone, chat, and email."
+    },
+    {
+      "id": "syn-paraprofessional",
+      "type": "synthetic",
+      "kind": "job",
+      "title": "School Paraprofessional",
+      "org": "Sample Co. - Alpine-area school",
+      "location": "Lehi, UT",
+      "pay_monthly_gross": 2100,
+      "hours_per_week": 29,
+      "flexibility": [
+        "part-time",
+        "school-hours",
+        "summers off"
+      ],
+      "skills": [
+        "child development",
+        "patience",
+        "classroom support",
+        "communication"
+      ],
+      "description": "Support teachers and students in small groups. Same calendar as the school year."
+    },
+    {
+      "id": "syn-volunteer-coordinator",
+      "type": "synthetic",
+      "kind": "job",
+      "title": "Volunteer Coordinator",
+      "org": "Sample Co. - Salt Lake food pantry nonprofit",
+      "location": "Salt Lake City, UT (hybrid)",
+      "pay_monthly_gross": 3200,
+      "hours_per_week": 32,
+      "flexibility": [
+        "hybrid",
+        "flexible hours"
+      ],
+      "skills": [
+        "event planning",
+        "scheduling",
+        "leadership",
+        "fundraising",
+        "communication"
+      ],
+      "description": "Recruit, schedule, and lead volunteers; plan two fundraising events a year."
+    },
+    {
+      "id": "syn-medical-scheduler",
+      "type": "synthetic",
+      "kind": "job",
+      "title": "Patient Scheduler",
+      "org": "Sample Co. - Utah County clinic",
+      "location": "Provo, UT",
+      "pay_monthly_gross": 3000,
+      "hours_per_week": 32,
+      "flexibility": [
+        "part-time",
+        "day shift"
+      ],
+      "skills": [
+        "scheduling",
+        "customer service",
+        "multitasking",
+        "medical terminology"
+      ],
+      "description": "Schedule appointments and handle front-desk calls. Day shifts only."
+    },
+    {
+      "id": "syn-project-coordinator",
+      "type": "synthetic",
+      "kind": "returnship",
+      "title": "16-Week Project Coordinator Returnship",
+      "org": "Sample Co. - Lehi tech company",
+      "location": "Lehi, UT (hybrid)",
+      "pay_monthly_gross": 4200,
+      "hours_per_week": 40,
+      "flexibility": [
+        "hybrid",
+        "returnship",
+        "mentor"
+      ],
+      "skills": [
+        "project management",
+        "organization",
+        "communication",
+        "spreadsheets"
+      ],
+      "description": "Paid returnship for people with a 2+ year career break, with a mentor and a path to a full-time role."
+    }
+  ],
+  "courses": [
+    {
+      "title": "Excel / spreadsheet basics",
+      "provider": "GCFGlobal",
+      "cost": "free",
+      "length": "a few hours",
+      "closes_gap": [
+        "Excel",
+        "spreadsheets"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Microsoft 365 and Excel modules",
+      "provider": "Microsoft Learn",
+      "cost": "free",
+      "length": "self-paced",
+      "closes_gap": [
+        "Excel",
+        "Microsoft Office"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Inbound / CRM fundamentals",
+      "provider": "HubSpot Academy",
+      "cost": "free",
+      "length": "self-paced",
+      "closes_gap": [
+        "CRM software"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Google Project Management Certificate",
+      "provider": "Google / Coursera",
+      "cost": "monthly subscription - verify",
+      "length": "about 6 months part-time - verify",
+      "closes_gap": [
+        "project management"
+      ],
+      "verify": true
+    },
+    {
+      "title": "QuickBooks Online training",
+      "provider": "Intuit",
+      "cost": "free - verify",
+      "length": "self-paced",
+      "closes_gap": [
+        "QuickBooks"
+      ],
+      "verify": true
+    },
+    {
+      "title": "Medical terminology short course",
+      "provider": "Utah tech college (via Learn & Work) - verify",
+      "cost": "tuition help may apply",
+      "length": "weeks",
+      "closes_gap": [
+        "medical terminology"
+      ],
+      "verify": true
+    }
+  ]
+}

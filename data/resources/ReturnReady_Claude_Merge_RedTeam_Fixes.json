@@ -1,0 +1,193 @@
+{
+  "title": "GrokBot red-team of Claude combined catalog (returnready_resources.json)",
+  "as_of": "2026-11-14",
+  "summary": {
+    "claude_count": 193,
+    "show_in_demo_true": 176,
+    "featured_for_demo_true": 22,
+    "false_duplicate_merges_found": 0,
+    "unmerged_near_duplicates_in_featured_set": 3,
+    "show_in_demo_should_flip_false": 12,
+    "url_verified_overclaimed": 2,
+    "lost_urls": "Claude did not carry official URLs for the three refresher courses (GCFGlobal Excel, Microsoft Learn, HubSpot Academy). Those belong in seed courses[], not as directory cards. Utah VR is present under utah-vr; the slightly different /usor/vr/services/index.html path is not a loss."
+  },
+  "recommended_field_fixes": [
+    {
+      "id": "fidelity-resume",
+      "issue": "show_in_demo_should_be_false",
+      "severity": "high",
+      "reason": "Claude's own notes say the official page reports applications closed and is India-specific. status should be closed or historical_only, not check_provider. GrokBot v3 already has demo_ok=false and status=closed.",
+      "recommend": {
+        "show_in_demo": false,
+        "featured_for_demo": false,
+        "status": "closed"
+      }
+    },
+    {
+      "id": "goldman-sachs-slc",
+      "issue": "do_not_feature_interest_list",
+      "severity": "high",
+      "reason": "Status is interest_list (next cohort Jan-Mar 2027, register interest only). Fine in the full directory with a clear interest-list label, but it should not be featured in the live caregiver demo.",
+      "recommend": {
+        "featured_for_demo": false,
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "arup-returnship",
+      "issue": "do_not_feature_interest_list",
+      "severity": "high",
+      "reason": "Status is interest_list. Same rule as Goldman. Keep in the directory, drop from featured and from the live demo load.",
+      "recommend": {
+        "featured_for_demo": false,
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "morgan-stanley-ut",
+      "issue": "do_not_feature_unconfirmed_returnship",
+      "severity": "high",
+      "reason": "status=check_provider; no confirmed current Utah opening. Do not feature in the 3-minute demo.",
+      "recommend": {
+        "featured_for_demo": false,
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "cdk-return",
+      "issue": "interest_list_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=interest_list. If the app shows every show_in_demo record, judges can land on an interest list presented as a current opening.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "wells-fargo-glide",
+      "issue": "interest_list_in_live_app_filter",
+      "severity": "medium",
+      "reason": "Same as CDK.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "blackrock-return",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "deloitte-return",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "jpmc-reentry",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "lockheed-next",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "northrop-ireturn",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "ubs-comeback",
+      "issue": "unconfirmed_returnship_in_live_app_filter",
+      "severity": "medium",
+      "reason": "show_in_demo=true with status=check_provider.",
+      "recommend": {
+        "show_in_demo": false
+      }
+    },
+    {
+      "id": "usu-relaunch",
+      "issue": "url_verified_overclaimed",
+      "severity": "medium",
+      "reason": "Featured and url_verified=true, but GrokBot's 2026-11-14 fetch of the product page failed (connection closed). Keep the card in the seed if the team can open the page, but do not treat the URL as confirmed from our checks.",
+      "recommend": {
+        "url_verified": false,
+        "notes": "URL fetch failed from GrokBot's checker; teammate should open the page before demoing it."
+      }
+    },
+    {
+      "id": "careeronestop-justice",
+      "issue": "url_verified_overclaimed",
+      "severity": "medium",
+      "reason": "Featured and url_verified=true, but the CloudFront URL failed SSL in GrokBot's check. Prefer the careeronestop.org toolkit URL already present as careeronestop-justice-2.",
+      "recommend": {
+        "featured_for_demo": false,
+        "url_verified": false
+      }
+    },
+    {
+      "id": "slco-jail-reentry",
+      "issue": "off_scope_for_featured_caregiver_demo",
+      "severity": "medium",
+      "reason": "A useful justice-reentry resource, but featuring it in the Maya / Track 01 caregiver demo is off-scope and the official page has been cited through changing URLs. Keep in the directory; drop from featured.",
+      "recommend": {
+        "featured_for_demo": false
+      }
+    }
+  ],
+  "unmerged_featured_duplicates": [
+    {
+      "ids": [
+        "path-forward",
+        "path-forward-2"
+      ],
+      "issue": "unmerged_landing_pages",
+      "severity": "medium",
+      "reason": "Homepage and /returnships/ are the same organization. Both are featured_for_demo=true, so the 22-item featured set shows Path Forward twice. Keep path-forward-2 as the action URL or merge into one card."
+    },
+    {
+      "ids": [
+        "irelaunch",
+        "irelaunch-2"
+      ],
+      "issue": "unmerged_landing_pages",
+      "severity": "medium",
+      "reason": "Same as Path Forward: both featured. Prefer the returnships page as the action URL, or keep one card."
+    },
+    {
+      "ids": [
+        "care-about-childcare",
+        "care-about-childcare-2"
+      ],
+      "issue": "unmerged_landing_pages",
+      "severity": "medium",
+      "reason": "jobs.utah.gov/occ/cac.html and cac.utah.gov are the same Care About Child Care program. Both featured. Prefer https://cac.utah.gov/."
+    }
+  ],
+  "what_looks_solid": [
+    "WOTC, Return Utah, Learn & Work historical, Fidelity SLC careers, Zions careers, Dress for Success SLC, FlexJobs, and 70 Million Jobs are correctly hidden.",
+    "JAN points at https://askjan.org/about-us/ rather than a news citation.",
+    "No duplicate ids in the 193-record file.",
+    "source_ids attribution is preserved."
+  ]
+}

@@ -1,0 +1,10 @@
+field,description
+id,Stable identifier. Aliases from other catalogs are in chatgpt_id / claude_id.
+type,'real' for an actual organization or program. 'sample' for fictional demo cards from Claude's seed (originally labeled synthetic).
+demo_ok,"TRUE only if safe to consider for the live demo: sample cards, Tech-Moms, or a verified URL plus status ongoing or cohort_listed."
+status,"ongoing, cohort_listed, check_provider, interest_list, no_opening_seen, local_returnship_unverified, historical_only, closed, unknown, sample."
+kind,App card kind compatible with seed_opportunities.json.
+resource_type,"agency, nonprofit, education, returnship, job_board, childcare, legal_aid."
+url,Primary official URL. 404s were dropped. Prefer a URL that returned HTTP 2xx.
+sources,"Which catalogs included this entry, joined with +: GrokBot, Claude, ChatGPT."
+How to edit,"Filter and edit a CSV, or load opportunities[] from the JSON. Do not present a row as a live opening unless demo_ok is TRUE and the page is rechecked the same day."
